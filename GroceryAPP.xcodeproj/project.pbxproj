@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		BD23D08A278EEC6500C470A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD23D089278EEC6500C470A6 /* AppDelegate.swift */; };
 		BD23D08C278EEC6500C470A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD23D08B278EEC6500C470A6 /* SceneDelegate.swift */; };
-		BD23D08E278EEC6500C470A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD23D08D278EEC6500C470A6 /* ViewController.swift */; };
 		BD23D091278EEC6500C470A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD23D08F278EEC6500C470A6 /* Main.storyboard */; };
 		BD23D094278EEC6500C470A6 /* GroceryAPP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD23D092278EEC6500C470A6 /* GroceryAPP.xcdatamodeld */; };
 		BD23D096278EEC6600C470A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD23D095278EEC6600C470A6 /* Assets.xcassets */; };
@@ -17,6 +16,16 @@
 		BD23D0A4278EEC6600C470A6 /* GroceryAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD23D0A3278EEC6600C470A6 /* GroceryAPPTests.swift */; };
 		BD23D0AE278EEC6600C470A6 /* GroceryAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD23D0AD278EEC6600C470A6 /* GroceryAPPUITests.swift */; };
 		BD23D0B0278EEC6600C470A6 /* GroceryAPPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD23D0AF278EEC6600C470A6 /* GroceryAPPUITestsLaunchTests.swift */; };
+		BD23D0BD278EF86F00C470A6 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD23D0BC278EF86F00C470A6 /* LoginVC.swift */; };
+		BD23D0BF278EF8B900C470A6 /* GroceriesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD23D0BE278EF8B900C470A6 /* GroceriesTVC.swift */; };
+		BD23D0C1278EF8F300C470A6 /* OnlineTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD23D0C0278EF8F300C470A6 /* OnlineTVC.swift */; };
+		BD23D0C3278EFB0500C470A6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD23D0C2278EFB0500C470A6 /* GoogleService-Info.plist */; };
+		BD23D0C6278EFD2100C470A6 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = BD23D0C5278EFD2100C470A6 /* FirebaseAuth */; };
+		BD23D0C8278EFD2100C470A6 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = BD23D0C7278EFD2100C470A6 /* FirebaseDatabase */; };
+		BD23D0CA278F033C00C470A6 /* k.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD23D0C9278F033C00C470A6 /* k.swift */; };
+		BD245423279212B80042EFF7 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD245422279212B80042EFF7 /* Functions.swift */; };
+		BD24542927923AE90042EFF7 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = BD24542827923AE90042EFF7 /* GoogleSignIn */; };
+		BD37029C27900C3800D6F8E2 /* GroceryItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD37029B27900C3800D6F8E2 /* GroceryItemVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +49,6 @@
 		BD23D086278EEC6500C470A6 /* GroceryAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroceryAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD23D089278EEC6500C470A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD23D08B278EEC6500C470A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BD23D08D278EEC6500C470A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BD23D090278EEC6500C470A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD23D093278EEC6500C470A6 /* GroceryAPP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GroceryAPP.xcdatamodel; sourceTree = "<group>"; };
 		BD23D095278EEC6600C470A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +59,13 @@
 		BD23D0A9278EEC6600C470A6 /* GroceryAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroceryAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD23D0AD278EEC6600C470A6 /* GroceryAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryAPPUITests.swift; sourceTree = "<group>"; };
 		BD23D0AF278EEC6600C470A6 /* GroceryAPPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryAPPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD23D0BC278EF86F00C470A6 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		BD23D0BE278EF8B900C470A6 /* GroceriesTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceriesTVC.swift; sourceTree = "<group>"; };
+		BD23D0C0278EF8F300C470A6 /* OnlineTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineTVC.swift; sourceTree = "<group>"; };
+		BD23D0C2278EFB0500C470A6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Documents/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BD23D0C9278F033C00C470A6 /* k.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = k.swift; sourceTree = "<group>"; };
+		BD245422279212B80042EFF7 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		BD37029B27900C3800D6F8E2 /* GroceryItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryItemVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD23D0C8278EFD2100C470A6 /* FirebaseDatabase in Frameworks */,
+				BD23D0C6278EFD2100C470A6 /* FirebaseAuth in Frameworks */,
+				BD24542927923AE90042EFF7 /* GoogleSignIn in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,12 +119,12 @@
 		BD23D088278EEC6500C470A6 /* GroceryAPP */ = {
 			isa = PBXGroup;
 			children = (
-				BD23D089278EEC6500C470A6 /* AppDelegate.swift */,
-				BD23D08B278EEC6500C470A6 /* SceneDelegate.swift */,
-				BD23D08D278EEC6500C470A6 /* ViewController.swift */,
-				BD23D08F278EEC6500C470A6 /* Main.storyboard */,
+				BD245426279239AE0042EFF7 /* resource */,
+				BD245425279223D20042EFF7 /* controller */,
+				BD245424279223990042EFF7 /* view */,
+				BD2454212792127D0042EFF7 /* model */,
+				BD23D0C2278EFB0500C470A6 /* GoogleService-Info.plist */,
 				BD23D095278EEC6600C470A6 /* Assets.xcassets */,
-				BD23D097278EEC6600C470A6 /* LaunchScreen.storyboard */,
 				BD23D09A278EEC6600C470A6 /* Info.plist */,
 				BD23D092278EEC6500C470A6 /* GroceryAPP.xcdatamodeld */,
 			);
@@ -130,6 +148,44 @@
 			path = GroceryAPPUITests;
 			sourceTree = "<group>";
 		};
+		BD2454212792127D0042EFF7 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				BD23D0C9278F033C00C470A6 /* k.swift */,
+				BD245422279212B80042EFF7 /* Functions.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		BD245424279223990042EFF7 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				BD23D08F278EEC6500C470A6 /* Main.storyboard */,
+				BD23D097278EEC6600C470A6 /* LaunchScreen.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		BD245425279223D20042EFF7 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				BD23D0BC278EF86F00C470A6 /* LoginVC.swift */,
+				BD23D0BE278EF8B900C470A6 /* GroceriesTVC.swift */,
+				BD37029B27900C3800D6F8E2 /* GroceryItemVC.swift */,
+				BD23D0C0278EF8F300C470A6 /* OnlineTVC.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		BD245426279239AE0042EFF7 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				BD23D089278EEC6500C470A6 /* AppDelegate.swift */,
+				BD23D08B278EEC6500C470A6 /* SceneDelegate.swift */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +202,11 @@
 			dependencies = (
 			);
 			name = GroceryAPP;
+			packageProductDependencies = (
+				BD23D0C5278EFD2100C470A6 /* FirebaseAuth */,
+				BD23D0C7278EFD2100C470A6 /* FirebaseDatabase */,
+				BD24542827923AE90042EFF7 /* GoogleSignIn */,
+			);
 			productName = GroceryAPP;
 			productReference = BD23D086278EEC6500C470A6 /* GroceryAPP.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +279,10 @@
 				Base,
 			);
 			mainGroup = BD23D07D278EEC6500C470A6;
+			packageReferences = (
+				BD23D0C4278EFD2100C470A6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				BD24542727923AE80042EFF7 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
 			productRefGroup = BD23D087278EEC6500C470A6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -235,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD23D099278EEC6600C470A6 /* LaunchScreen.storyboard in Resources */,
+				BD23D0C3278EFB0500C470A6 /* GoogleService-Info.plist in Resources */,
 				BD23D096278EEC6600C470A6 /* Assets.xcassets in Resources */,
 				BD23D091278EEC6500C470A6 /* Main.storyboard in Resources */,
 			);
@@ -261,10 +327,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD23D08E278EEC6500C470A6 /* ViewController.swift in Sources */,
 				BD23D08A278EEC6500C470A6 /* AppDelegate.swift in Sources */,
+				BD37029C27900C3800D6F8E2 /* GroceryItemVC.swift in Sources */,
+				BD245423279212B80042EFF7 /* Functions.swift in Sources */,
 				BD23D08C278EEC6500C470A6 /* SceneDelegate.swift in Sources */,
+				BD23D0BD278EF86F00C470A6 /* LoginVC.swift in Sources */,
+				BD23D0BF278EF8B900C470A6 /* GroceriesTVC.swift in Sources */,
+				BD23D0C1278EF8F300C470A6 /* OnlineTVC.swift in Sources */,
 				BD23D094278EEC6500C470A6 /* GroceryAPP.xcdatamodeld in Sources */,
+				BD23D0CA278F033C00C470A6 /* k.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,6 +673,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BD23D0C4278EFD2100C470A6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		BD24542727923AE80042EFF7 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BD23D0C5278EFD2100C470A6 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD23D0C4278EFD2100C470A6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		BD23D0C7278EFD2100C470A6 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD23D0C4278EFD2100C470A6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		BD24542827923AE90042EFF7 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD24542727923AE80042EFF7 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		BD23D092278EEC6500C470A6 /* GroceryAPP.xcdatamodeld */ = {
